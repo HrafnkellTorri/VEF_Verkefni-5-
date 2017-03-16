@@ -11,9 +11,9 @@ $name = json_decode($jsondata,true);
 $jsonData = json_encode($json_array);?>
 <form>
     Nafn Myndar:<br>
-    <input type="text" name="firstname" value="<?php $jejk ?>"><br>
+    <input type="text" name="Nafnmyndar" value="<?php $jejk ?>"><br>
     Link Myndar:<br>
-    <input type="text" name="lastname" value="<?php $jejk2 ?>">
+    <input type="text" name="Linkur" value="<?php $jejk2 ?>">
     <input type="submit" value="Setja inn mynd">
 </form>
 <?php
